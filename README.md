@@ -1,3 +1,27 @@
+## Consumo de una API usando JavaScript: [The Rick and Morty API](https://rickandmortyapi.com/api/character).
+
+![The Rick and Morty](img/Captura.PNG)
+
+## Ver [Demo]().
+
+A continuación se indica cómo trabajar con el uso de este recurso.
+
+Si usted clona mi repositorio necesitará ejecutar en la terminal el siguiente comando:
+
+```sh
+npm start
+```
+
+Posiblemente marque error ya que no reconocerá el paquete “snowpack” pero puede utilizar:
+
+```sh
+npm install snowpack
+```
+
+Y volver a ejecutar el comando anterior.
+
+Para crear una plantilla desde cero siga los siguientes pasos:
+
 # Snowpack Tailwind
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).

@@ -1,22 +1,4 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
-
 const urlBase = "https://rickandmortyapi.com/api/";
-
-/*
-//intl  --> formato a fechas o monedas
-const formatPrice = (precio) => {
-  const newPrice = new window.Intl.NumberFormat("en-EN", {
-    style: "currency",
-    currency: "USD",
-  }).format(precio);
-  return newPrice;
-};
-
-// precio.textContent = formatPrice(element.price);
-*/
 
 const appNode = document.querySelector("#app");
 // web api
