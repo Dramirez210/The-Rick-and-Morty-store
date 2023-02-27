@@ -1,5 +1,12 @@
 {
+  "name": "api-example",
+  "author": "Dramirez",
+  "version": "1.0",
+  "main": "public/index.html",
+  "homepage": "http://dramirez210.github.io/The-Rick-and-Morty-store",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "snowpack dev",
     "build": "snowpack build",
     "format": "prettier --write \"src/**/*.js\"",
@@ -13,5 +20,8 @@
     "pretty-quick": "^3.1.0",
     "snowpack": "^3.8.8",
     "tailwindcss": "^2.0.2"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
