@@ -1,0 +1,14 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+body {
+  background-color: rgb(39, 43, 51);
+}
+
+/* card
+rgba(75, 85, 99, var(--tw-bg-opacity)
+
+
+
+*/
