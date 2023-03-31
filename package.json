@@ -2,8 +2,7 @@
   "name": "api-example",
   "author": "Dramirez",
   "version": "1.0",
-  "main": "public/index.html",
-  "homepage": "http://dramirez210.github.io/The-Rick-and-Morty-store",
+  "homepage": "http://dramirez210.github.io/The-Rick-and-Morty-store/public",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

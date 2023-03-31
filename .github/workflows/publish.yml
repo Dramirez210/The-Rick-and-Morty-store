@@ -26,3 +26,23 @@
 #         with:
 #           github_token: ${{ secrets.GITHUB_TOKEN }}
 #           publish_dir: ./build
+
+
+
+# name: Trigger Netlify Build
+
+# on:
+#   schedule:
+#     # You can use https://crontab.guru to generate the
+#     # desired cron sheduled :)
+#     - cron: "0 10 * * 1" # At 10:00 on Monday.
+
+# jobs:
+#   build:
+#     name: Request Netlify Webhook
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Ping
+#         run: curl -X POST -d {} https://api.netlify.com/build_hooks/601b6158a8a0276cdf660e5a
+
+
